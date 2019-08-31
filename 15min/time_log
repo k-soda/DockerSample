@@ -1,0 +1,3 @@
+#!/bin/sh
+LOG_FILE="time.log"
+date >> ~/log/$LOG_FILE

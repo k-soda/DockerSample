@@ -1,0 +1,7 @@
+version: '3'
+services:
+  docker-sample:
+    build: .
+    command: crond && tail -f /dev/null
+    volumes:
+    - ~/log:/root/log
